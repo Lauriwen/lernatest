@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "workspaces": [
+    "packages/*",
+    "cabinet"
+  ],
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "lerna": "^3.15.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --loglevel=info"
+  },
+  "dependencies": {
+    "rollup": "^1.16.7",
+    "rollup-plugin-babel": "^4.3.3"
+  }
+}

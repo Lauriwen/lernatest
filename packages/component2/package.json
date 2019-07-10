@@ -1,0 +1,11 @@
+{
+  "name": "@lernatest/component2",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Lauriwen",
+  "license": "UNLICENSED"
+}

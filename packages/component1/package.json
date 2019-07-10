@@ -1,0 +1,20 @@
+{
+  "name": "@lernatest/component1",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "dist/component1-build.cjs.js",
+  "nameSpaces": {
+    "name": "component1-build"
+  },
+  "scripts": {
+    "test": "",
+    "clean": "lerna run clear",
+    "build": "yarn clean && rollup -c"
+  },
+  "author": "Lauriwen",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
